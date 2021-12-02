@@ -7,9 +7,9 @@ public class Car {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    @Column(name = "model")
+    @Column
     private String model;
-    @Column(name = "series")
+    @Column
     private int series;
 
     public Long getId() {
